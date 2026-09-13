@@ -1,0 +1,25 @@
+# Pinned-range dependencies for the EMNLP 2026 sparse-probing release.
+# Preferred install path is `uv sync` against uv.lock, which pins exact versions.
+# For GPU support install PyTorch with CUDA first:
+#   uv sync && uv pip install torch --torch-backend=cu124
+
+# Core: frozen BERT activation extraction
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Probing, selection, evaluation
+scikit-learn>=1.3.0
+scipy>=1.10.0
+
+# Figures
+matplotlib>=3.7.0
+
+# Utilities
+tqdm>=4.65.0
+pyyaml>=6.0.0
+python-dotenv>=1.0.0

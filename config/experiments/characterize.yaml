@@ -1,0 +1,13 @@
+experiment: characterize
+source_experiment: sparse_probe
+# chatgpt swapped out for gpt2: chatgpt was redundant with gpt4 (both OpenAI,
+# both RLHF-tuned, near-identical Jaccard); gpt2 adds a base/non-RLHF model
+# at the easier end of the difficulty axis (counterpart to cohere-chat at the
+# harder end), giving better architecture-and-difficulty diversity.
+generators: [gpt4, gpt2, mpt, mistral-chat, llama-chat, cohere-chat]
+
+# Match the activation pool size used in sparse_probe and dependents.
+max_samples: 7500
+
+activations_root: results
+output_dir: results/experiments

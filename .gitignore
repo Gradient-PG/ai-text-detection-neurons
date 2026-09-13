@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# Agent / editor tooling (never part of a release)
+.claude/
+.cursor/
+.aider*
+AGENTS.md
+CLAUDE.md
+.vscode/
+.idea/
+*.swp
+
+# Data — fetched by scripts/download_raid.py, never committed
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Experiment outputs. results/experiments/ holds the small published summary
+# JSONs that regenerate every paper figure and table; everything heavy
+# (activations, probe weights, per-sample splits) is regenerated locally.
+results/activations_*/
+results/analysis/
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.joblib
+*.h5
+splits.json
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# LaTeX build artifacts
+_paper/*.aux
+_paper/*.bbl
+_paper/*.blg
+_paper/*.fdb_latexmk
+_paper/*.fls
+_paper/*.log
+_paper/*.out
+_paper/*.synctex.gz
+
+# OS
+.DS_Store
+Thumbs.db

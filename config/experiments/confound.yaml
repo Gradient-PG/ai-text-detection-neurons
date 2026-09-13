@@ -1,0 +1,17 @@
+experiment: confound
+source_experiment: sparse_probe
+
+evaluator: confound
+evaluator_params:
+  confounds: [text_length, domain]
+  significance_threshold: 0.05
+
+n_folds: 5
+seeds: [42, 123, 456]
+max_samples: 7500
+stability_threshold: 0.8
+eval_probe_C: 1.0
+eval_probe_max_iter: 5000
+
+activations_root: results
+output_dir: results/experiments

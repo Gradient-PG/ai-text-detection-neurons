@@ -1,0 +1,97 @@
+{
+  "run_id": "20260513_190517",
+  "logo_mode": "family",
+  "generators": [
+    "chatgpt",
+    "cohere",
+    "cohere-chat",
+    "gpt2",
+    "gpt3",
+    "gpt4",
+    "llama-chat",
+    "mistral",
+    "mistral-chat",
+    "mpt",
+    "mpt-chat"
+  ],
+  "n_generators": 11,
+  "elapsed_seconds": 910.128585100174,
+  "results": [
+    {
+      "held_out": "family_cohere",
+      "held_out_kind": "family",
+      "held_out_members": [
+        "cohere",
+        "cohere-chat"
+      ],
+      "n_test": 10000,
+      "full_l2_accuracy_mean": 0.8855,
+      "selected_l2_accuracy_mean": 0.763,
+      "full_l2_auc_roc_mean": 0.9456788,
+      "selected_l2_auc_roc_mean": 0.8627976533333334,
+      "n_stable_neurons": 119,
+      "n_selected_mean": 120.66666666666667
+    },
+    {
+      "held_out": "family_gpt",
+      "held_out_kind": "family",
+      "held_out_members": [
+        "chatgpt",
+        "gpt2",
+        "gpt3",
+        "gpt4"
+      ],
+      "n_test": 20000,
+      "full_l2_accuracy_mean": 0.98155,
+      "selected_l2_accuracy_mean": 0.8876333333333334,
+      "full_l2_auc_roc_mean": 0.9929046100000001,
+      "selected_l2_auc_roc_mean": 0.9529724733333333,
+      "n_stable_neurons": 91,
+      "n_selected_mean": 91.66666666666667
+    },
+    {
+      "held_out": "family_llama",
+      "held_out_kind": "family",
+      "held_out_members": [
+        "llama-chat"
+      ],
+      "n_test": 5000,
+      "full_l2_accuracy_mean": 0.9972,
+      "selected_l2_accuracy_mean": 0.9367333333333333,
+      "full_l2_auc_roc_mean": 0.99932944,
+      "selected_l2_auc_roc_mean": 0.9859646399999998,
+      "n_stable_neurons": 125,
+      "n_selected_mean": 127.33333333333333
+    },
+    {
+      "held_out": "family_mistral",
+      "held_out_kind": "family",
+      "held_out_members": [
+        "mistral",
+        "mistral-chat"
+      ],
+      "n_test": 10000,
+      "full_l2_accuracy_mean": 0.9657,
+      "selected_l2_accuracy_mean": 0.8555333333333334,
+      "full_l2_auc_roc_mean": 0.98244616,
+      "selected_l2_auc_roc_mean": 0.9254096,
+      "n_stable_neurons": 106,
+      "n_selected_mean": 111.33333333333333
+    },
+    {
+      "held_out": "family_mpt",
+      "held_out_kind": "family",
+      "held_out_members": [
+        "mpt",
+        "mpt-chat"
+      ],
+      "n_test": 10000,
+      "full_l2_accuracy_mean": 0.9906,
+      "selected_l2_accuracy_mean": 0.8569333333333334,
+      "full_l2_auc_roc_mean": 0.99506408,
+      "selected_l2_auc_roc_mean": 0.9259117066666667,
+      "n_stable_neurons": 110,
+      "n_selected_mean": 113.66666666666667
+    }
+  ]
+}

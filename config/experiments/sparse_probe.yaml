@@ -1,0 +1,27 @@
+experiment: sparse_probe
+n_folds: 5
+# Multi-seed validation: 3 seeds x 5 folds = 15 measurements per cell,
+# closing the single-seed gap flagged in the publishability assessment.
+seeds: [42, 123, 456]
+
+selector: sparse_probe
+selector_params:
+  # Fixed C chosen via run_sample_size_stability sweep over
+  # {0.005, 0.01, 0.02, 0.05} at K=15 stratified subsamples per (C, N),
+  # confirmed across 3 generators (gpt4, llama-chat, mistral).
+  # C=0.005 maximises selection stability at every N for every generator;
+  # at the headline N=7500 it gives Jaccard 0.72-0.75 (gpt4 0.751,
+  # llama-chat 0.748, mistral 0.724). Larger C drops stability sharply
+  # (e.g. C=0.05 -> Jaccard 0.41-0.53 at the same N).
+  C_values: [0.005]
+  solver: liblinear
+  max_iter: 1000
+
+evaluator: probe_accuracy
+max_samples: 7500
+stability_threshold: 0.8
+eval_probe_C: 1.0
+eval_probe_max_iter: 5000
+
+activations_root: results
+output_dir: results/experiments

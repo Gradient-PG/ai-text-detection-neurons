@@ -1,0 +1,28 @@
+{
+  "aggregate_metrics": {
+    "n_pairs_per_shuffle_mean": 750.0,
+    "n_pairs_per_shuffle_std": 1.0954451150103321,
+    "n_pairs_per_shuffle_min": 748.0,
+    "n_pairs_per_shuffle_max": 751.0,
+    "n_random_draws_mean": 20.0,
+    "n_random_draws_std": 0.0,
+    "n_random_draws_min": 20.0,
+    "n_random_draws_max": 20.0,
+    "n_selected_mean": 61.333333333333336,
+    "n_selected_std": 3.1126980079810007,
+    "n_selected_min": 56.0,
+    "n_selected_max": 68.0,
+    "n_shuffles_mean": 20.0,
+    "n_shuffles_std": 0.0,
+    "n_shuffles_min": 20.0,
+    "n_shuffles_max": 20.0,
+    "n_test_mean": 1500.0,
+    "n_test_std": 0.0,
+    "n_test_min": 1500.0,
+    "n_test_max": 1500.0,
+    "n_folds": 15
+  },
+  "n_stable_neurons": 0,
+  "stable_neurons": [],
+  "neuron_stability": {}
+}

@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code or the published result data, please cite the paper."
+title: "AI-Text Detection Neurons in Frozen BERT"
+abstract: >-
+  Code and result data for a mechanistic study of AI-text detection neurons in
+  frozen BERT, using sparse probing and bidirectional activation patching on the
+  RAID benchmark.
+authors:
+  - family-names: Blicharz
+    given-names: Paweł
+  - family-names: Grunwald
+    given-names: Miłosz
+license: MIT
+repository-code: "https://github.com/Gradient-PG/ai-text-detection-neurons"
+keywords:
+  - interpretability
+  - sparse probing
+  - activation patching
+  - AI-generated text detection
+  - BERT
+preferred-citation:
+  type: conference-paper
+  title: >-
+    A Mechanistic Study of AI-Text Detection Neurons in Frozen BERT:
+    Sparse Probing and Activation Patching on RAID
+  authors:
+    - family-names: Blicharz
+      given-names: Paweł
+    - family-names: Grunwald
+      given-names: Miłosz
+  collection-title: >-
+    Proceedings of the 2026 Conference on Empirical Methods in Natural
+    Language Processing
+  year: 2026

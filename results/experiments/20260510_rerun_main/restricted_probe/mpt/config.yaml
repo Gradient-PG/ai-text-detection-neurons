@@ -1,0 +1,20 @@
+experiment: restricted_probe
+generators:
+- gpt4
+pooled: false
+n_folds: 5
+seeds:
+- 42
+- 123
+- 456
+selector: sparse_probe
+selector_params: {}
+evaluator: probe_accuracy
+evaluator_params: {}
+max_samples: 7500
+activations_root: results
+output_dir: results/experiments
+stability_threshold: 0.8
+eval_probe_C: 1.0
+eval_probe_max_iter: 5000
+source_experiment: sparse_probe

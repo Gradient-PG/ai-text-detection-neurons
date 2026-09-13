@@ -1,0 +1,24 @@
+{
+  "aggregate_metrics": {
+    "baseline_accuracy_mean": 0.9707555555555555,
+    "baseline_accuracy_std": 0.004298951925100005,
+    "baseline_accuracy_min": 0.9606666666666667,
+    "baseline_accuracy_max": 0.978,
+    "n_random_seeds_mean": 20.0,
+    "n_random_seeds_std": 0.0,
+    "n_random_seeds_min": 20.0,
+    "n_random_seeds_max": 20.0,
+    "n_selected_mean": 57.8,
+    "n_selected_std": 2.9028721409436327,
+    "n_selected_min": 53.0,
+    "n_selected_max": 62.0,
+    "n_test_mean": 1500.0,
+    "n_test_std": 0.0,
+    "n_test_min": 1500.0,
+    "n_test_max": 1500.0,
+    "n_folds": 15
+  },
+  "n_stable_neurons": 0,
+  "stable_neurons": [],
+  "neuron_stability": {}
+}

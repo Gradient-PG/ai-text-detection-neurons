@@ -1,0 +1,21 @@
+{
+  "seed": 456,
+  "fold_idx": 3,
+  "n_selected": 57,
+  "n_total_features": 9216,
+  "compression_ratio": 0.006184895833333333,
+  "baseline_accuracy": 0.9693333333333334,
+  "baseline_auc_roc": 0.9960853263739136,
+  "baseline_f1": 0.9692101740294511,
+  "smaller_model_accuracy": 0.9366666666666666,
+  "smaller_model_auc_roc": 0.984088860602419,
+  "smaller_model_f1": 0.9362843729040912,
+  "smaller_model_drop": 0.03266666666666673,
+  "ablate_complement_accuracy": 0.9253333333333333,
+  "ablate_complement_auc_roc": 0.9771039592959276,
+  "ablate_complement_f1": 0.9244264507422402,
+  "ablate_complement_drop": 0.04400000000000004,
+  "smaller_vs_ablate_complement_diff": 0.011333333333333306,
+  "n_train": 6000,
+  "n_test": 1500
+}

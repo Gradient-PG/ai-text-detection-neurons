@@ -1,0 +1,37 @@
+{
+  "generator": "mistral-chat",
+  "run_id": "stability_grid_20260513_195712",
+  "sample_sizes": [
+    500,
+    1000,
+    2000,
+    3500,
+    5000,
+    7500,
+    10000
+  ],
+  "c_list": [
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.05
+  ],
+  "k_draws": 15,
+  "solver": "liblinear",
+  "max_iter": 1000,
+  "seed": 42,
+  "core_threshold_pct": 80.0,
+  "n_total_pool": 9996,
+  "n_features": 9216,
+  "n_domains": 6,
+  "domain_names": [
+    "abstracts",
+    "books",
+    "news",
+    "reddit",
+    "reviews",
+    "wiki"
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "fold_idx": 3,
+  "seed": 456,
+  "n_neurons": 57,
+  "neuron_indices": [
+    [
+      1,
+      56
+    ],
+    [
+      1,
+      91
+    ],
+    [
+      1,
+      142
+    ],
+    [
+      1,
+      160
+    ],
+    [
+      1,
+      555
+    ],
+    [
+      1,
+      626
+    ],
+    [
+      2,
+      35
+    ],
+    [
+      2,
+      393
+    ],
+    [
+      3,
+      35
+    ],
+    [
+      4,
+      46
+    ],
+    [
+      4,
+      97
+    ],
+    [
+      4,
+      216
+    ],
+    [
+      5,
+      517
+    ],
+    [
+      5,
+      531
+    ],
+    [
+      6,
+      176
+    ],
+    [
+      6,
+      405
+    ],
+    [
+      6,
+      412
+    ],
+    [
+      7,
+      30
+    ],
+    [
+      7,
+      51
+    ],
+    [
+      7,
+      166
+    ],
+    [
+      7,
+      387
+    ],
+    [
+      7,
+      735
+    ],
+    [
+      8,
+      271
+    ],
+    [
+      10,
+      322
+    ],
+    [
+      10,
+      564
+    ],
+    [
+      10,
+      585
+    ],
+    [
+      10,
+      682
+    ],
+    [
+      10,
+      686
+    ],
+    [
+      10,
+      705
+    ],
+    [
+      10,
+      750
+    ],
+    [
+      11,
+      197
+    ],
+    [
+      11,
+      296
+    ],
+    [
+      11,
+      376
+    ],
+    [
+      11,
+      438
+    ],
+    [
+      11,
+      514
+    ],
+    [
+      11,
+      682
+    ],
+    [
+      11,
+      757
+    ],
+    [
+      12,
+      40
+    ],
+    [
+      12,
+      63
+    ],
+    [
+      12,
+      164
+    ],
+    [
+      12,
+      167
+    ],
+    [
+      12,
+      204
+    ],
+    [
+      12,
+      234
+    ],
+    [
+      12,
+      291
+    ],
+    [
+      12,
+      308
+    ],
+    [
+      12,
+      381
+    ],
+    [
+      12,
+      431
+    ],
+    [
+      12,
+      445
+    ],
+    [
+      12,
+      446
+    ],
+    [
+      12,
+      463
+    ],
+    [
+      12,
+      535
+    ],
+    [
+      12,
+      538
+    ],
+    [
+      12,
+      571
+    ],
+    [
+      12,
+      626
+    ],
+    [
+      12,
+      628
+    ],
+    [
+      12,
+      679
+    ],
+    [
+      12,
+      705
+    ]
+  ],
+  "metrics": {
+    "patching_sweep": [
+      {
+        "k": 1,
+        "selected_flip_rate_mean": 6.657789613848203e-05,
+        "selected_flip_rate_std": 0.00029020632114118997,
+        "random_flip_rate_mean": 4.327563249001332e-05,
+        "random_flip_rate_std": 0.00010373126798191002
+      },
+      {
+        "k": 2,
+        "selected_flip_rate_mean": 0.0011984021304926764,
+        "selected_flip_rate_std": 0.0008315576562447934,
+        "random_flip_rate_mean": 3.994673768308923e-05,
+        "random_flip_rate_std": 0.00011984021304926767
+      },
+      {
+        "k": 5,
+        "selected_flip_rate_mean": 0.002396804260985353,
+        "selected_flip_rate_std": 0.0007989347536617843,
+        "random_flip_rate_mean": 0.00015978695073235686,
+        "random_flip_rate_std": 0.00032914000251153857
+      },
+      {
+        "k": 10,
+        "selected_flip_rate_mean": 0.0030625832223701733,
+        "selected_flip_rate_std": 0.0011984021304926764,
+        "random_flip_rate_mean": 0.00030958721704394136,
+        "random_flip_rate_std": 0.0003968372134415218
+      },
+      {
+        "k": 20,
+        "selected_flip_rate_mean": 0.003661784287616511,
+        "selected_flip_rate_std": 0.0011040695041129828,
+        "random_flip_rate_mean": 0.0006824234354194408,
+        "random_flip_rate_std": 0.0006509245011526879
+      },
+      {
+        "k": 50,
+        "selected_flip_rate_mean": 0.010119840213049267,
+        "selected_flip_rate_std": 0.001992893415059356,
+        "random_flip_rate_mean": 0.0013448735019973366,
+        "random_flip_rate_std": 0.0008831552276319802
+      },
+      {
+        "k": 57,
+        "selected_flip_rate_mean": 0.011051930758988016,
+        "selected_flip_rate_std": 0.0019341996067022565,
+        "random_flip_rate_mean": 0.0013914780292942743,
+        "random_flip_rate_std": 0.0009220257433489048
+      }
+    ],
+    "flip_rate_by_domain": {
+      "abstracts": {
+        "flip_rate_mean": 0.011904761904761904,
+        "flip_rate_std": 0.006873217490352688,
+        "n_pairs_per_shuffle": 126
+      },
+      "books": {
+        "flip_rate_mean": 0.0,
+        "flip_rate_std": 0.0,
+        "n_pairs_per_shuffle": 125
+      },
+      "news": {
+        "flip_rate_mean": 0.027165354330708658,
+        "flip_rate_std": 0.005826239601160922,
+        "n_pairs_per_shuffle": 127
+      },
+      "reddit": {
+        "flip_rate_mean": 0.010000000000000004,
+        "flip_rate_std": 0.007949842765740716,
+        "n_pairs_per_shuffle": 125
+      },
+      "reviews": {
+        "flip_rate_mean": 0.011600000000000003,
+        "flip_rate_std": 0.00535163526410386,
+        "n_pairs_per_shuffle": 125
+      },
+      "wiki": {
+        "flip_rate_mean": 0.005284552845528456,
+        "flip_rate_std": 0.006440235576323114,
+        "n_pairs_per_shuffle": 123
+      }
+    },
+    "n_pairs_per_shuffle": 751,
+    "n_shuffles": 20,
+    "n_random_draws": 20,
+    "n_selected": 57,
+    "n_test": 1500,
+    "direction": "human_into_ai"
+  }
+}
