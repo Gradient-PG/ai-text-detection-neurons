@@ -1,4 +1,8 @@
-"""Generate all paper figures as PDF files."""
+"""Generate all paper figures as PDF (for LaTeX) and PNG (for the README).
+
+Both formats are written to _paper/figures/ on every run, so the README
+images never drift from the PDFs the paper embeds.
+"""
 import json, glob, os
 import numpy as np
 import matplotlib
@@ -147,6 +151,7 @@ ax.set_xlim(0.8, 130)
 
 plt.tight_layout(pad=0.4)
 fig.savefig(OUT / 'fig_flip_rate.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'fig_flip_rate.png', bbox_inches='tight', dpi=200)
 plt.close()
 print(f"\n  Saved -> {OUT / 'fig_flip_rate.pdf'}")
 
@@ -225,6 +230,7 @@ ax.legend(handles, labels, loc='upper center',
 
 plt.tight_layout(pad=0.4)
 fig.savefig(OUT / 'fig_layer_dist.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'fig_layer_dist.png', bbox_inches='tight', dpi=200)
 plt.close()
 print(f"  Saved -> {OUT / 'fig_layer_dist.pdf'}")
 
@@ -297,6 +303,7 @@ ax.spines[:].set_visible(False)
 
 plt.tight_layout(pad=0.4)
 fig.savefig(OUT / 'fig_jaccard.pdf', bbox_inches='tight')
+fig.savefig(OUT / 'fig_jaccard.png', bbox_inches='tight', dpi=200)
 plt.close()
 print(f"  Saved -> {OUT / 'fig_jaccard.pdf'}")
 
@@ -388,6 +395,7 @@ if logo is not None:
 
         plt.tight_layout(pad=0.3)
         fig.savefig(OUT / 'fig_logo.pdf', bbox_inches='tight')
+        fig.savefig(OUT / 'fig_logo.png', bbox_inches='tight', dpi=200)
         plt.close()
         print(f"  Saved -> {OUT / 'fig_logo.pdf'}")
 
